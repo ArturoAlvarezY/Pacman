@@ -1,4 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(fondo-pacman.jpg);
+}
+
 .pacmanImage{
     height: 100px;
     width: 100px;
+}
+
+.flexingPacman {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
