@@ -1,0 +1,38 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url(/img/fondo-pacman.jpg);
+    height: 100vh;
+}
+
+
+.ghost{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.firstContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexingPacman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.pacmanImage{
+    width: 100px;
+    height: 100px;
+}
