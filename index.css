@@ -3,7 +3,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image:url(fondo-pacman.jpg);
+    background-image:url(/img/fondo-pacman.jpg);
     height: 100vh;
 }
 
