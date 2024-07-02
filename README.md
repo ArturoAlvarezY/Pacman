@@ -25,4 +25,8 @@ Coloca en la esquina superior derecha, debajo de la cabecera un marcador de 4 d√
 Cuando pacman se come un fantasma gana 100 puntos
 Cuando pacman se come un cherry gana 500 puntos
 Cuando la puntuaci√≥n llegue a 5000 puntos el juego debe marcar Game Over
+
+
 Este ejercicio se va a ir haciendo pasito a pasito y los requisitos van a ir cambiando. Y recuerda nada sale a la primera y no pasa nada.
+
+

@@ -8,7 +8,7 @@ body {
 }
 
 
-.ghost{
+#ghost{
     display: flex;
     width: 100px;
     height: 100px;
@@ -36,3 +36,9 @@ body {
     width: 100px;
     height: 100px;
 }
+
+#score{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}   
