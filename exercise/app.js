@@ -18,7 +18,7 @@ const ghostAnimation = ghost.animate([
 ghost.addEventListener("mouseover", () => {
   if (pacmanRemoved === false) { 
     ghost.src = pacman.src;
-    pacman.src = ''; // remove the pacman image
+    pacman.src = pacman.remove(); 
     pacmanRemoved = true;  
     ghostAnimation.pause();
     ghostEaten = true;
@@ -36,7 +36,7 @@ ghost.addEventListener("mouseover", () => {
     document.body.appendChild(newGhost);
 
     ghostInterval = setInterval(moveGhost, 2000); 
-    ghost = newGhost; // update the ghost variable
+    ghost = newGhost; 
     ghostEaten = false;
   }
 });
